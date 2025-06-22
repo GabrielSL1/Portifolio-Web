@@ -12,6 +12,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-image': "url('/images/hero-bg.png')",
+        'bg-gradient': "linear-gradient(rgba(0,0,0,0.5), #0a0a0a 99%)",
+
       },
       fontFamily: {
         mono: ['var(--font-plex-mono)', 'monospace'],
