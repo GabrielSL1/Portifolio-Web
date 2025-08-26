@@ -1,5 +1,6 @@
 import { HeroSection } from './components/pages/home/sections';
 import  {KnowTechs}  from './components/pages/home/know-techs';
+import { HighlightedProjects } from './components/pages/home/highlighted-projects';
 import { FaReact, FaNodeJs, FaPython, FaDocker, FaAws } from 'react-icons/fa';
 import { SiTypescript, SiKubernetes, SiGraphql, SiMongodb, SiPostgresql, SiTailwindcss, SiNextdotjs, SiRedux } from 'react-icons/si';
 type Tech = {
@@ -33,8 +34,10 @@ const minhasTechs: Tech[] = [
 return (
     <>
       <HeroSection/> 
-     
+      
       <KnowTechs techs={minhasTechs} />
+      <HighlightedProjects />
+      
     </>
   )
 }
